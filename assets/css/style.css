@@ -1,0 +1,339 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --main-color: radial-gradient(
+    circle at 104.17% 4.55%,
+    #686969 0,
+    #465761 25%,
+    #1f4459 50%,
+    #003251 75%,
+    #00214a 100%
+  );
+}
+
+/************/
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-flex-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+}
+
+.logo-container {
+  background-image: var(--main-color);
+  font-size: 0.8em;
+  color: white;
+  padding-left: 20px;
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+}
+.logo-container p {
+  position: relative;
+  top: -9px;
+  color: white;
+}
+
+.main-header__contactInfo {
+  margin: -10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #686969;
+  font-size: 0.9em;
+}
+
+.main-header__contactInfo__phone {
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-header__contactInfo__address {
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  position: sticky;
+  z-index: 997;
+  top: 0;
+}
+
+article {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+article h1 {
+  text-align: center;
+
+  font-size: 1.5rem;
+  color: #003251;
+  font-family: "Pacifico", cursive;
+}
+
+article p {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 5rem;
+}
+
+article [class*="icon-"] {
+  display: block;
+  text-align: center;
+  color: #003251;
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+.main-header [class*="icon-"]:before {
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+.section > h1 {
+  padding-top: 1em;
+  color: #1f4459;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+.section {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+.btn-whatssap {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  left: 1vw;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  padding: 0;
+  background-color: darkgreen;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+.btn-facebook {
+  position: fixed;
+  z-index: 999;
+  bottom: 12vh;
+  left: 1vw;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #1f4459;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+
+.btn-whatssap a,
+.btn-facebook a {
+  text-decoration: none;
+}
+
+.btn-whatssap [class*="icon-"],
+.btn-facebook [class*="icon-"] {
+  position: relative;
+  top: 3px;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.form form {
+  width: 70%;
+}
+
+.form form input,
+textarea,
+button {
+  margin-top: 10px;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form form textarea {
+  height: 7rem;
+}
+
+.ove:hover {
+  background-color: sandybrown;
+}
+
+.ove-button:hover {
+  width: 4.2rem;
+  height: 4.2rem;
+  transition: all 0.1s ease;
+}
+
+.section-principal div {
+  margin: auto;
+}
+
+.section-principal div h1 {
+  font-family: "Pacifico", cursive;
+}
+.section-principal div h1,
+.section-principal div p {
+  padding: 1rem;
+  color: #003251;
+}
+.section-principal div ul li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.section-final {
+  padding: 1rem;
+  background-image: var(--main-color);
+}
+.section-final p {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.section-final a {
+  display: block;
+  text-decoration: none;
+  background-color: chocolate;
+  padding: 1rem;
+  border-radius: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-diseño {
+  background-color: chocolate;
+  border-radius: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-pie {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 12px;
+}
+
+.main-pie a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 4s ease;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 4s ease;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: calc(1rem + 1vw);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(247, 222, 30, 0.85);
+  color: var(--second-color);
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 780px) {
+  .logo-container {
+    background: none;
+  }
+  .fondo {
+    background-image: radial-gradient(
+      circle at 104.17% 4.55%,
+      #686969 0,
+      #465761 25%,
+      #1f4459 50%,
+      #003251 75%,
+      #00214a 100%
+    );
+  }
+
+  .container-flex {
+    flex-wrap: nowrap;
+  }
+
+  .column--50 {
+    width: 50%;
+  }
+
+  .main-header__contactInfo {
+    background-color: none;
+    border-radius: 0;
+    background: none;
+    overflow: hidden;
+  }
+
+  .main-header__contactInfo__phone {
+    text-align: right;
+  }
+
+  .main-header__contactInfo__address {
+    text-align: right;
+  }
+
+  .column--50-25 {
+    width: 49%;
+  }
+
+  .container-flex-art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .column--50-25-25 {
+    width: 33%;
+  }
+}
