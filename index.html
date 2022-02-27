@@ -5,148 +5,364 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/bd3bff868b.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/nomalize.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <link href="carousel.css" rel="stylesheet">
   <link href="https://file.myfontastic.com/BLiK9W7XcSXDCAoiMZKdvf/icons.css" rel="stylesheet">
-  <title>Estudio Contable-Servicio Contabilidad</title>
+
+  <script src="//code.tidio.co/obedfunuigcwbbnmn26nlea3lex1qkbw.js" async></script>
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container container-flex fondo">
-      <div class="logo-container column column--50 hidden">
-        <h1>MGuillen & Asociados</h1>
-        <p> Estudio contable - Asesoría Empresarial</p>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mguillen & Asociados <br>
+          <h6>Asesoria Contable</h6>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/message/Q7NTOKOIWCKYM1" target="_blank"><span
+                  class="icon-phone">&nbsp;&nbsp;+51 924-593-827</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><span class="icon-mail">&nbsp;&nbsp;miguelangelguillenrivas@gmail.com</span></a>
+            </li>
+          </ul>
+
+          <a class="btn btn-outline-primary" href="https://www.facebook.com/Mguillen-Asociados-112788691300246"
+            target="_blank"><span class="icon-facebook"></span></a>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
       </div>
+    </nav>
+  </header>
 
-      <div class="main-header__contactInfo column column--50">
+  <main>
 
-        <p class="main-header__contactInfo__phone">
-          <span class="icon-phone">+51 9924-593-827</span>
-        </p>
-
-        <p class="main-header__contactInfo__address">
-          <span class="icon-mail">miguelangelguillenrivas@gmail.com</span>
-        </p>
-
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+            <image href="assets/image/pexels-fauxels-3184405.jpg" width="100%" />
+          </svg>
 
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Asesoría contable Empresarial – Personas naturales con/sin negocio.</h1>
+              <p>Nuestra asesoría contable responde a todas las inquietudes sobre tu negocio.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+            <image href="assets/image/pexels-olia-danilevich-5466814.jpg" width="100%" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Soluciones para Tu Negocio</h1>
+              <p>Nuestro enfoque está en darte una gestión contable – empresarial con información precisa y oportuna
+                que te permita una acertada toma de decisiones.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+            <image href="assets/image/pexels-mikhail-nilov-6963053.jpg" width="100%" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Te garantizamos soluciones contables efectivas para tu empresa.</h1>
+              <p>¡No más pagos de impuestos altos y multas innecesarias!</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
 
-  </header>
-  <button class="btn-whatssap ove-button hidden"><a href="https://wa.me/message/Q7NTOKOIWCKYM1" target="_blank"><span
-        class="icon-whatsapp"></span></a></button>
-  <button class="btn-facebook ove-button hidden"><a href="https://www.facebook.com/Mguillen-Asociados-112788691300246"
-      target="_blank"><span class="icon-facebook"></span></a></button>
-  <button class="scroll-top-btn ove-button">&#11014;</button>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
+    <div class="container marketing">
 
-  <main>
-    <section class="section-principal container container-flex">
-      <div class="column">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image
+              href="assets/image/kisspng-company-corporation-building-icon-building-5a712d39ab4876.5875427615173665857016.png"
+              height="140" width="130" />
+          </svg>
 
-        <h1>Asesoría contable Empresarial – Personas naturales con/sin negocio.</h1>
-        <p>te ayudamos en relación a:</p>
-        <ul>
-          <li>&#9989; La constitución de tu empresa y definimos tu estructura tributaria y contable.</li>
-          <li>&#9989; Obtención de RUC y clave sol, virtual.</li>
-          <li>&#9989; Emisión Facturas y BV Electrónicas.</li>
-          <li>&#9989; Declaraciones y pagos de impuestos oportunos, con el fin de evitarte sobrecostos por multas y/o
-            rectificaciones.</li>
-          <li>&#9989; Evaluar el rendimiento de tu negocio con la realización de Estados Financieros que prepararemos
-            para ti de
-            manera semestral y/o anual.</li>
-          <li>&#9989; Emisión de Recibos por Honorarios y Suspensiones de Renta de Profesiones u oficios.</li>
-          <li>&#9989; Declaración Jurada Anual de Renta de Profesiones, oficios y empresas.</li>
-          <li>&#9989; Devolución de Tributos Detracciones, Retenciones y Percepciones.</li>
-          <li>&#9989; Elaboración de Libros Electrónicos (Compras, Ventas, Diario Simplificado).</li>
-        </ul>
-      </div>
-      <div id="formulario" class="form column container-flex-form">
-        <h1>¡Comunícate con nosotros!</h1>
-        <form action="enviando-email.php" method="post">
-          <input type="text" name="nombre" placeholder="Nombres" required>
-          <input type="text" name="correo" placeholder="Correo Electrónico" required>
-          <input type="text" name="telefono" placeholder="Teléfono" required>
-          <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
-          <button class="btn-diseño ove" type="submit">Enviar mensaje</button>
-        </form>
-
-      </div>
-
-    </section>
-    <section class="section container">
-      <h1>Soluciones para tu negocio</h1>
-      <div class="container-flex-art">
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-bussines"></span>
-          <h1>Constitucion de Empresas</h1>
+          <h2>Constituci&oacute;n de Empresas</h2>
           <p>La formalidad es el primer paso para ganar confianza y brindar seguridad a tus clientes. Por ello te
             orientamos y
             tramitamos la constitución de tu empresa EIRL, SRL, SAC o unipersonal en 5 días.</p>
-        </article>
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-calculator"></span>
-          <h1>Soluciones Contables</h1>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image href="assets/image/5a1c37777f1379.9768431415117986475205.png" height="140" width="130" />
+          </svg>
+
+          <h2>Soluciones Contables</h2>
           <p>Realizaremos registros de transacciones que tu empresa necesita, llevando de la mano, el orden y control de
             tu
             información con nuestro
             software contable.
           </p>
-        </article>
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-empresa"></span>
-          <h1>Soluciones Empresariales</h1>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image href="assets/image/empresarial.png" height="130" width="121" />
+          </svg>
+
+          <h2>Soluciones Empresariales</h2>
           <p>Porque sabemos cada vez tienes menos tiempo para realizar tus trámites, te hacemos la vida más simple con
             una asistencia
             personalizada en diligencias que presente tu negocio.</p>
-        </article>
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-tribut"></span>
-          <h1>Soluciones Tributarias</h1>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image href="assets/image/tributo.png" height="115" width="150" />
+          </svg>
+
+          <h2>Soluciones Tributarias</h2>
           <p>Te guiamos con la formalidad y el cumplimiento de obligaciones tributarias en tus declaraciones y pagos. De
             esta manera,
             podrás obtener beneficios como el acceder a préstamos bancarios y evitar sanciones por la inobservancia de
             normas
-            vigentes.
-          </p>
-        </article>
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-audit"></span>
-          <h1>Auditorias</h1>
+            vigentes.</p>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image href="assets/image/auditoria.png" height="140" width="130" />
+          </svg>
+
+          <h2>Auditor&iacute;as</h2>
           <p>Tendrás tus libros contables físicos y/o electrónicos así como toda tu información necesaria ante una
             auditoría SUNAT o
             Ministerio de Trabajo.
           </p>
-        </article>
-        <article class="column column--50-25 column--50-25-25">
-          <span class="icon-estado"></span>
-          <h1>Estados Financieros</h1>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#ffffff" /><text x="50%" y="50%" fill="#ffffff"
+              dy=".3em">140x140</text>
+            <image
+              href="assets/image/kisspng-finance-computer-icons-financial-statement-bank-in-5ae6a633c58bf8.8027219215250652678092.png"
+              height="95" width="180" />
+          </svg>
+
+          <h2>Estados Financieros</h2>
           <p>Realizaremos Estados Financieros que te permitan ver el manejo económico de tu empresa en un periodo
             determinado, saber
             si existe ganancia o pérdida y el buen uso de los recursos empresariales. Esta información te hará tomar
             buenas
-            decisiones para seguir creciendo.
-          </p>
-        </article>
+            decisiones para seguir creciendo.</p>
+          <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Te ayudamos en relacion a:
+          </h2>
+          <br>
+          <ul>
+            <li>
+              <p class="lead">La constitución de tu empresa y definimos tu estructura tributaria y contable.</p>
+            </li>
+            <li>
+              <p class="lead">Obtención de RUC y clave sol, virtual.</p>
+            </li>
+            <li>
+              <p class="lead">Emisión Facturas y BV Electrónicas</p>
+            </li>
+            <li>
+              <p class="lead">Declaraciones y pagos de impuestos oportunos, con el fin de evitarte sobrecostos por
+                multas
+                y/o rectificaciones.</p>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            <image href="assets/image/pexels-nataliya-vaitkevich-6863260 (1).jpg" height="100%" />
+          </svg>
+
+        </div>
       </div>
-    </section>
-    <section class="section-final container-flex-form">
-      <p>¡No pierdas tu oportunidad!</p>
-      <a href="#formulario" class="ove">Solicitar informacion</a>
 
-    </section>
-    <footeer class="main-pie">
+      <hr class=" featurette-divider">
 
-      <p><a href="#formulario">MGUILLEN & ASOCIADOS ©2022 </a>| Todos los Derechos Reservados</p>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
 
-    </footeer>
+          <br>
+          <ul>
+
+            <li>
+              <p class="lead">
+                Evaluar el rendimiento de tu negocio con la realización de Estados Financieros que prepararemos para
+                ti de
+                manera
+                semestral y/o anual.
+              </p>
+            </li>
+            <li>
+              <p class="lead">
+                Emisión de Recibos por Honorarios y Suspensiones de Renta de Profesiones u oficios.
+              </p>
+            </li>
+            <li>
+              <p class="lead">Declaración Jurada Anual de Renta de Profesiones, oficios y empresas.</p>
+              <br>
+            </li>
+            <li>
+              <p class="lead">Devolución de Tributos Detracciones, Retenciones y Percepciones.</p>
+            </li>
+            <li>
+              <p class="lead">Elaboración de Libros Electrónicos (Compras, Ventas, Diario Simplificado).</p>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            <image href="assets/image/pexels-karolina-grabowska-7681091.jpg" height="100%" />
+
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
   </main>
 
-  <script src="assets/javascript/index.js" type="module"></script>
-</body>
 
+
+
+
+
+
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
